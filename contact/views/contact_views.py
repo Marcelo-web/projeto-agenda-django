@@ -11,7 +11,7 @@ def index(request):
     context = {
         'contacts': contacts
     }
-    print(contacts.query)
+
     return render(
         request,
         'contact/index.html',
